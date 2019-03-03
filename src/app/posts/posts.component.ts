@@ -9,7 +9,7 @@ import { PostsService } from '../posts.service';
 export class PostsComponent implements OnInit {
 
   postsArray: any;
-  apiURL : string = 'http://localhost:3000/api/';
+  apiURL : string = '/api/';
   constructor(private posts : PostsService) { }
 
   ngOnInit() {
