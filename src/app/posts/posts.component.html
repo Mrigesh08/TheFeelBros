@@ -1,0 +1,45 @@
+<div class="ui centered card fluid" *ngFor='let post of postsArray'>
+  <div class="content">
+    <div class="header">First Post</div>
+    <div class="meta">
+      <span>2 days ago by</span>
+      <a>Feels</a>
+    </div>
+  </div>
+
+  <div class="image">
+    <img src="/assets/images/logo.jpg">
+  </div>
+  <!-- <div class="content">
+    <a class="header">Elyse</a>
+  </div> -->
+  <div class="extra content">
+    <div style="width:50%;float: left; text-align: center;">
+      <div class="ui labeled button" style="text-align: center;">
+        <div class="ui secondary animated fade button" tabindex="0">
+          <div class="visible content">Upvote</div>
+          <div class="hidden content">
+            <i class="down arrow icon"></i>
+          </div>
+        </div>
+        <div class="ui basic black left pointing label right float">
+          1,048
+        </div>
+      </div>
+
+    </div>
+    <div style="width:50%;float: right; text-align: center;">
+      <div class="ui labeled button" style="text-align: center;">
+        <div class="ui secondary animated fade button" tabindex="0">
+          <div class="visible content">Downvote</div>
+          <div class="hidden content">
+            <i class="down arrow icon"></i>
+          </div>
+        </div>
+        <div class="ui basic black left pointing label right float">
+          22
+        </div>
+      </div>
+
+    </div>
+</div>
